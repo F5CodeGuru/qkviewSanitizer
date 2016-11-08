@@ -7,7 +7,7 @@
 #Copy the sanitized version off box using scp and submit to case or https://ihealth.f5.com
 #Current features (across all files in the qkview)
 #Mask all ip address information (full and partial) Mask all passwords in bigip_user.conf Mask all vlan names Remove all object descriptions
-#Last updated: 2016-10-27
+#Last updated: 2016-11-8
     
 import fileinput, os, sys, tarfile, re
 import traceback
